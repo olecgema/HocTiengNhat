@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Outlet, Navigate } from 'react-router-dom';
+import { Outlet, Navigate, Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import { useAuth } from '../hooks/useAuth';
 import { unlockAudio } from '../utils/helpers';
@@ -34,6 +34,10 @@ export default function MainLayout() {
             )}
 
             <Outlet />
+
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                <Link to="/privacy-policy" className="btn-text" style={{ fontSize: '0.85rem' }}>Privacy Policy</Link>
+            </div>
         </div>
     );
 }

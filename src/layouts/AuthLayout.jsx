@@ -1,4 +1,4 @@
-import { Outlet, Navigate } from 'react-router-dom';
+import { Outlet, Navigate, Link } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 
 export default function AuthLayout() {
@@ -19,6 +19,9 @@ export default function AuthLayout() {
                 <p className="subtitle">Nắm vững Hiragana và Katakana</p>
             </header>
             <Outlet />
+            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                <Link to="/privacy-policy" className="btn-text" style={{ fontSize: '0.85rem' }}>Privacy Policy</Link>
+            </div>
         </div>
     );
 }
