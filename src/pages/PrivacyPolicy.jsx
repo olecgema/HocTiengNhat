@@ -208,7 +208,6 @@ export default function PrivacyPolicy() {
                     <p style={{ marginBottom: '15px' }}>If you have any questions about this Privacy Policy, You can contact us:</p>
                     <ul style={{ paddingLeft: '20px', marginBottom: '20px', listStyleType: 'disc' }}>
                         <li style={{ marginBottom: '10px' }}>By email: tamtrangnb@gmail.com</li>
-                        <li style={{ marginBottom: '10px' }}>tiktok-developers-site-verification=1tm4daZlzoO3SpDY3eg2O0GhOiI7UBil</li>
                     </ul>
 
                 </div>
