@@ -7,12 +7,14 @@ import Register from '../pages/Register';
 import Dashboard from '../pages/Dashboard';
 import Phrases from '../pages/Phrases';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
+import TermsOfService from '../pages/TermsOfService';
 
 export default function AppRoutes() {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
 
             <Route element={<AuthLayout />}>
                 <Route path="/login" element={<Login />} />

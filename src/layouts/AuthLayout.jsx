@@ -19,8 +19,9 @@ export default function AuthLayout() {
                 <p className="subtitle">Nắm vững Hiragana và Katakana</p>
             </header>
             <Outlet />
-            <div style={{ textAlign: 'center', marginTop: '20px' }}>
+            <div style={{ textAlign: 'center', marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '15px' }}>
                 <Link to="/privacy-policy" className="btn-text" style={{ fontSize: '0.85rem' }}>Privacy Policy</Link>
+                <Link to="/terms-of-service" className="btn-text" style={{ fontSize: '0.85rem' }}>Terms of Service</Link>
             </div>
         </div>
     );
